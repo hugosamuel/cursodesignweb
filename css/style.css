@@ -11,6 +11,7 @@ p {
 
 img {
 	display: block;
+	max-width: 100%;
 }
 
 .btn {
@@ -171,7 +172,6 @@ img {
 	text-align: center;
 	color :#fff;
 	padding-top: 30px;
-
 }
 
 .introducao-interna h1 { 
@@ -200,6 +200,11 @@ img {
 .produtos_lista li {
 	background: #fec63e;
 	text-align: center;
+}
+
+.produtos_lista li img {
+
+	margin: 0 auto;
 }
 
 .produtos_lista li h3 {
@@ -338,7 +343,7 @@ img {
 	width: 100%;
 	background: #000;
 	color: #fff;
-	padding: 20x 0;
+	padding: 20px 0;
 }
 
 .footer h3 {
